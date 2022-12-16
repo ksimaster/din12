@@ -172,10 +172,27 @@ public class PlayerStatHUD : MonoBehaviour
         victoryScreen.transform.Find("DamageDealt").GetComponent<Text>().text = "Damage dealt: " + damageDealt;
         victoryScreen.transform.Find("DamageTaken").GetComponent<Text>().text = "Damage taken: " + damageTaken;
         float timeTaken = Time.time - startTime;
+        //my best time
+        if (PlayerPrefs.HasKey("bestTimeSecond"))
+        {
+            if(PlayerPrefs.GetFloat("bestTimeSecond") < timeTaken) PlayerPrefs.SetFloat("bestTimeSecond", timeTaken);
+        }
+        else
+        {
+            PlayerPrefs.SetFloat("bestTimeSecond", timeTaken);
+        }
+        //translate time
         int minutes = Mathf.FloorToInt(timeTaken / 60F);
         int seconds = Mathf.FloorToInt(timeTaken - minutes * 60);
         string niceTime = string.Format("{0:0}:{1:00}", minutes, seconds);
-        victoryScreen.transform.Find("Time").GetComponent<Text>().text = "Time:  " + niceTime;
+        victoryScreen.transform.Find("Time").GetComponent<Text>().text = "Время:  " + niceTime;
+        //best time translate
+        float bestTime = PlayerPrefs.GetFloat("bestTimeSecond");
+        if (deathScreen.activeSelf) bestTime = 0;
+        int bestMinutes = Mathf.FloorToInt(bestTime / 60F);
+        int bestSeconds = Mathf.FloorToInt(bestTime - bestMinutes * 60);
+        string bestNiceTime = string.Format("{0:0}:{1:00}", bestMinutes, bestSeconds);
+        victoryScreen.transform.Find("BestTime").GetComponent<Text>().text = "Лучшее время:  " + bestNiceTime;
         victoryScreen.SetActive(true);
     }
 

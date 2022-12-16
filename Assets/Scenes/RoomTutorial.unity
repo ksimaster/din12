@@ -1367,7 +1367,6 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -2877,7 +2876,6 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -4266,6 +4264,85 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9592a7dea975ad14ea86cfd49b776629, type: 3}
+--- !u!1 &1114994938
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1114994939}
+  - component: {fileID: 1114994941}
+  - component: {fileID: 1114994940}
+  m_Layer: 5
+  m_Name: BestTime
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1114994939
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1114994938}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1997079250}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 292.01, y: 0}
+  m_SizeDelta: {x: 523.4517, y: 63.0547}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1114994940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1114994938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 40
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 4
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'Time: 0:00'
+--- !u!222 &1114994941
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1114994938}
+  m_CullTransparentMesh: 1
 --- !u!1001 &1203960610
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5277,11 +5354,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6401559358232259912, guid: b3a671bf50efb2248b1d812cafcf25d7, type: 3}
       propertyPath: m_Pivot.x
-      value: 0.70023036
+      value: 0.49947035
       objectReference: {fileID: 0}
     - target: {fileID: 6401559358232259912, guid: b3a671bf50efb2248b1d812cafcf25d7, type: 3}
       propertyPath: m_Pivot.y
-      value: 1.1212415
+      value: 1.1111112
       objectReference: {fileID: 0}
     - target: {fileID: 6401559358232259912, guid: b3a671bf50efb2248b1d812cafcf25d7, type: 3}
       propertyPath: m_SizeDelta.x
@@ -5293,11 +5370,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6401559358232259912, guid: b3a671bf50efb2248b1d812cafcf25d7, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 384.44226
+      value: -1.0169067
       objectReference: {fileID: 0}
     - target: {fileID: 6401559358232259912, guid: b3a671bf50efb2248b1d812cafcf25d7, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 670.9408
+      value: 660
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b3a671bf50efb2248b1d812cafcf25d7, type: 3}
@@ -6316,7 +6393,6 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -7514,6 +7590,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerStatHUD
       objectReference: {fileID: 0}
+    - target: {fileID: 888479459775280093, guid: 0ba45a680da37494e88d0d3a3cd11bac, type: 3}
+      propertyPath: m_Text
+      value: 'Time: 0:00'
+      objectReference: {fileID: 0}
+    - target: {fileID: 901800582433441150, guid: 0ba45a680da37494e88d0d3a3cd11bac, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -285.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 901800582433441150, guid: 0ba45a680da37494e88d0d3a3cd11bac, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2123272085617261555, guid: 0ba45a680da37494e88d0d3a3cd11bac, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8453379960537095651, guid: 0ba45a680da37494e88d0d3a3cd11bac, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -7524,6 +7616,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ba45a680da37494e88d0d3a3cd11bac, type: 3}
+--- !u!224 &1997079250 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 7240410100252282868, guid: 0ba45a680da37494e88d0d3a3cd11bac, type: 3}
+  m_PrefabInstance: {fileID: 1997079249}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1997804934
 GameObject:
   m_ObjectHideFlags: 0
@@ -8145,7 +8242,6 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -8802,7 +8898,6 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -9024,7 +9119,6 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -11125,7 +11219,6 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -11472,6 +11565,7 @@ MonoBehaviour:
   maxWeaponDamageBonus: 51
   baseDamage: 23
   weaponDamageBonus: 5
+  attackSpeed: 1
 --- !u!4 &6358568393056817812
 Transform:
   m_ObjectHideFlags: 0
@@ -11621,6 +11715,7 @@ MonoBehaviour:
   maxWeaponDamageBonus: 42
   baseDamage: 20
   weaponDamageBonus: 0
+  attackSpeed: 1
 --- !u!114 &6735053425676236105
 MonoBehaviour:
   m_ObjectHideFlags: 0
