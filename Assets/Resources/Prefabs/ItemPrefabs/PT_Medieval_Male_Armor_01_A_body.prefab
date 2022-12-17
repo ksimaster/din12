@@ -2311,8 +2311,11 @@ MonoBehaviour:
   type: 1
   inventorySprite: {fileID: 21300000, guid: ebd04e9a82d47da4d88426ff5fe2ba2d, type: 3}
   itemRarity: 1
-  itemName: Black plated body armour
-  itemDescription: A Full-body suit of black steel plated armour.
+  itemName: "\u0411\u0440\u043E\u043D\u0435\u0436\u0438\u043B\u0435\u0442 \u0441
+    \u0447\u0435\u0440\u043D\u044B\u043C \u043F\u043E\u043A\u0440\u044B\u0442\u0438\u0435\u043C"
+  itemDescription: "\u041F\u043E\u043B\u043D\u043E\u0442\u0435\u043B\u044B\u0439
+    \u043A\u043E\u0441\u0442\u044E\u043C \u0438\u0437 \u0447\u0435\u0440\u043D\u043E\u0439
+    \u0441\u0442\u0430\u043B\u044C\u043D\u043E\u0439 \u0431\u0440\u043E\u043D\u0438."
   hoverShader: {fileID: 4800000, guid: 0b928010b20a5544185689b1187bdb8c, type: 3}
   defaultShader: {fileID: 4800000, guid: 66cf399cd52203c4685e11681d535f09, type: 3}
   armourProtectionBonus: 21.2
@@ -2434,7 +2437,6 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1

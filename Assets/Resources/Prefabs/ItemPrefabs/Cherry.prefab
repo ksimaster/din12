@@ -49,8 +49,8 @@ MonoBehaviour:
   type: 3
   inventorySprite: {fileID: 0}
   itemRarity: 0
-  itemName: Cherry
-  itemDescription: Red cherries.
+  itemName: "\u0412\u0438\u0448\u043D\u044F"
+  itemDescription: "\u041A\u0440\u0430\u0441\u043D\u0430\u044F \u0432\u0438\u0448\u043D\u044F"
   hoverShader: {fileID: 0}
   defaultShader: {fileID: 0}
   defaultHealValue: 20

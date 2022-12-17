@@ -54,7 +54,6 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -129,7 +128,7 @@ MonoBehaviour:
   type: 2
   inventorySprite: {fileID: 21300000, guid: e57135c0bcd301444b51ca6f95b98de4, type: 3}
   itemRarity: 1
-  itemName: The Black Bean
+  itemName: "\u0427\u0435\u0440\u043D\u0430\u044F \u0444\u0430\u0441\u043E\u043B\u044C "
   itemDescription: The blade of Akane the Conqueror, Unifier of Japan-Gea. It is
     one of the most ferocious blades to ever be forged.
   hoverShader: {fileID: 4800000, guid: b828cb58bc5b5334bab61a956aef47e4, type: 3}

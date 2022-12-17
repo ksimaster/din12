@@ -328,8 +328,10 @@ MonoBehaviour:
   type: 1
   inventorySprite: {fileID: 21300000, guid: ebd04e9a82d47da4d88426ff5fe2ba2d, type: 3}
   itemRarity: 0
-  itemName: Ancient plated body armour
-  itemDescription: Full-body traditional plated armour.
+  itemName: "\u0414\u0440\u0435\u0432\u043D\u0438\u0439 \u043F\u043B\u0430\u0441\u0442\u0438\u043D\u0447\u0430\u0442\u044B\u0439
+    \u0434\u043E\u0441\u043F\u0435\u0445"
+  itemDescription: "\u041F\u043E\u043B\u043D\u044B\u0439 \u0442\u0440\u0430\u0434\u0438\u0446\u0438\u043E\u043D\u043D\u044B\u0439
+    \u043B\u0430\u0442\u043D\u044B\u0439 \u0434\u043E\u0441\u043F\u0435\u0445."
   hoverShader: {fileID: 4800000, guid: 0b928010b20a5544185689b1187bdb8c, type: 3}
   defaultShader: {fileID: 4800000, guid: 66cf399cd52203c4685e11681d535f09, type: 3}
   armourProtectionBonus: 6.0128837
@@ -451,7 +453,6 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1

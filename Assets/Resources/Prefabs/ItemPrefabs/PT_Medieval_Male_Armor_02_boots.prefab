@@ -2057,7 +2057,6 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -2224,8 +2223,9 @@ MonoBehaviour:
   type: 1
   inventorySprite: {fileID: 21300000, guid: 45d04bc9a032aad428c73f163a3b4cb9, type: 3}
   itemRarity: 0
-  itemName: Steel boots.
-  itemDescription: A sturdy pair of boots.
+  itemName: "\u0421\u0442\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u0430\u043F\u043E\u0433\u0438. "
+  itemDescription: "\u041F\u0440\u043E\u0447\u043D\u0430\u044F \u043F\u0430\u0440\u0430
+    \u0431\u043E\u0442\u0438\u043D\u043E\u043A."
   hoverShader: {fileID: 4800000, guid: b071201fff155ce4e862cbab02af9b1a, type: 3}
   defaultShader: {fileID: 4800000, guid: a8253b14499cdfd49889327a3e820b2f, type: 3}
   armourProtectionBonus: 6.7

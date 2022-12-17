@@ -58,23 +58,23 @@ public class IngameHoverTooltip : MonoBehaviour
         if (item.type == ItemType.Consumable)
         {
             ConsumableScript cS = (ConsumableScript)item;
-            newStat = "Heal: " + cS.GetHealValue().ToString();
+            newStat = "Здоровье: " + cS.GetHealValue().ToString();
         }
         else if (item.type == ItemType.Armour)
         {
             ArmourScript aS = (ArmourScript)item;
-            newStat = "Armour: " + aS.GetProtectionBonus().ToString("F2") + "%";
+            newStat = "Броня: " + aS.GetProtectionBonus().ToString("F2") + "%";
         }
         else if (item.type == ItemType.Projectile)
         {
             ProjectileScript aS = (ProjectileScript)item;
-            newStat = "Damage: " + aS.GetFinalDamage().ToString();
+            newStat = "Урон: " + aS.GetFinalDamage().ToString();
         }
         else
         {
             WeaponScript wS = (WeaponScript)item;
-            newStat = "Damage: " + wS.GetDamageBonus().ToString();
-            newStat += "\nAttack speed: " + wS.attackSpeed.ToString("F2");
+            newStat = "Урон: " + wS.GetDamageBonus().ToString();
+            newStat += "\nСкорость атаки: " + wS.attackSpeed.ToString("F2");
         }
         nameField.text = item.itemName;
         statField.text = newStat;

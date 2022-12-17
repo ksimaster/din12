@@ -25,7 +25,7 @@ public class TooltipScript : MonoBehaviour
     {
         Cursor.visible = false;
         gameObject.SetActive(true);
-        headerField.text = tooltipName + " \n " + itemRarity + " item\n";
+        headerField.text = tooltipName + " \n " + itemRarity + " Предмет\n";
         statField.text = statString + "\n";
         if (tooltipDescription.Length != 0)
         {
@@ -52,27 +52,27 @@ public class TooltipScript : MonoBehaviour
         if (item.type == ItemType.Armour)
         {
             ArmourScript armorItem = (ArmourScript)item;
-            string statString = "Armor: " + armorItem.GetProtectionBonus().ToString("F2") + " %";
+            string statString = "Броня: " + armorItem.GetProtectionBonus().ToString("F2") + " %";
             ShowTooltip(item.itemName, item.itemRarity.ToString(), item.itemDescription, statString);
         }
         if (item.type == ItemType.Projectile)
         {
             ProjectileScript projectileItem = (ProjectileScript)item;
-            string statString = "Damage: " + projectileItem.GetFinalDamage();
+            string statString = "Урон: " + projectileItem.GetFinalDamage();
             //statString += "\nEnergy cost: " + projectileItem.GetEnergyCost();
             ShowTooltip(item.itemName, item.itemRarity.ToString(), item.itemDescription, statString);
         }
         if (item.type == ItemType.Weapon)
         {
             WeaponScript weaponItem = (WeaponScript)item;
-            string statString = "Bonus damage: " + weaponItem.GetDamageBonus();
-            statString += "\nAttack speed: " + weaponItem.attackSpeed.ToString("F2");
+            string statString = "Дополниетельный урон: " + weaponItem.GetDamageBonus();
+            statString += "\nСкорость атаки: " + weaponItem.attackSpeed.ToString("F2");
             ShowTooltip(item.itemName, item.itemRarity.ToString(), item.itemDescription, statString);
         }
         if (item.type == ItemType.Consumable)
         {
             ConsumableScript consumableItem = (ConsumableScript)item;
-            string statString = "Heal: " + consumableItem.GetHealValue();
+            string statString = "Здоровье: " + consumableItem.GetHealValue();
             ShowTooltip(item.itemName, item.itemRarity.ToString(), item.itemDescription, statString);
         }
     }

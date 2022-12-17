@@ -147,7 +147,6 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -206,10 +205,15 @@ MonoBehaviour:
   type: 2
   inventorySprite: {fileID: 21300000, guid: e57135c0bcd301444b51ca6f95b98de4, type: 3}
   itemRarity: 2
-  itemName: The Black Bean (Epic)
-  itemDescription: The blade of Akane the Conqueror, Unifier of Japan-Gea. It is
-    one of the most ferocious blades to ever be forged. It is embued with some sort
-    of mythical power.
+  itemName: "\u0425\u0430\u0440\u0438\u0437\u043C\u0430\u0442\u043E\u0440 (\u044D\u043F\u0438\u0447\u0435\u0441\u043A\u0438\u0439)"
+  itemDescription: "\u041A\u043B\u0438\u043D\u043E\u043A \u0410\u043A\u0430\u043D\u0435
+    \u0417\u0430\u0432\u043E\u0435\u0432\u0430\u0442\u0435\u043B\u044F, \u041E\u0431\u044A\u0435\u0434\u0438\u043D\u0438\u0442\u0435\u043B\u044C\u043D\u0438\u0446\u044B
+    \u042F\u043F\u043E\u043D\u0438\u0438-\u0413\u0435\u0430. \u042D\u0442\u043E \u043E\u0434\u0438\u043D
+    \u0438\u0437 \u0441\u0430\u043C\u044B\u0445 \u0441\u0432\u0438\u0440\u0435\u043F\u044B\u0445
+    \u043A\u043B\u0438\u043D\u043A\u043E\u0432, \u043A\u043E\u0433\u0434\u0430-\u043B\u0438\u0431\u043E
+    \u0441\u043E\u0437\u0434\u0430\u043D\u043D\u044B\u0445. \u041E\u043D \u043D\u0430\u043F\u043E\u043B\u043D\u0435\u043D
+    \u043A\u0430\u043A\u043E\u0439-\u0442\u043E \u043C\u0438\u0444\u0438\u0447\u0435\u0441\u043A\u043E\u0439
+    \u0441\u0438\u043B\u043E\u0439."
   hoverShader: {fileID: 4800000, guid: e4141780c1f7873418346b5417951cba, type: 3}
   defaultShader: {fileID: 4800000, guid: e4532d97636901541a63eb877e381758, type: 3}
   maxWeaponDamageBonus: 70

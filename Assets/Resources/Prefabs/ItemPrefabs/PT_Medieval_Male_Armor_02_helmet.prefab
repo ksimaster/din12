@@ -2178,7 +2178,6 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -2344,8 +2343,9 @@ MonoBehaviour:
   type: 1
   inventorySprite: {fileID: 21300000, guid: 29de7a0ab392e844cbca91780139712e, type: 3}
   itemRarity: 0
-  itemName: Metal Helmet
-  itemDescription: A knight's helm.
+  itemName: "\u041C\u0435\u0442\u0430\u043B\u043B\u0438\u0447\u0435\u0441\u043A\u0438\u0439
+    \u0448\u043B\u0435\u043C "
+  itemDescription: "\u0420\u044B\u0446\u0430\u0440\u0441\u043A\u0438\u0439 \u0448\u043B\u0435\u043C."
   hoverShader: {fileID: 4800000, guid: 0b928010b20a5544185689b1187bdb8c, type: 3}
   defaultShader: {fileID: 4800000, guid: 66cf399cd52203c4685e11681d535f09, type: 3}
   armourProtectionBonus: 28.350489

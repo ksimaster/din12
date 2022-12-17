@@ -54,7 +54,6 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -100,8 +99,9 @@ MonoBehaviour:
   type: 0
   inventorySprite: {fileID: 21300000, guid: 44472356d0651a94eb73b52c751a55fc, type: 3}
   itemRarity: 0
-  itemName: Basic shuriken.
-  itemDescription: Deadly from close range.
+  itemName: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439 \u0441\u044E\u0440\u0438\u043A\u0435\u043D"
+  itemDescription: "\u0421\u043C\u0435\u0440\u0442\u0435\u043B\u0435\u043D \u0441
+    \u0431\u043B\u0438\u0437\u043A\u043E\u0433\u043E \u0440\u0430\u0441\u0441\u0442\u043E\u044F\u043D\u0438\u044F."
   hoverShader: {fileID: 4800000, guid: b828cb58bc5b5334bab61a956aef47e4, type: 3}
   defaultShader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   baseDamage: 10

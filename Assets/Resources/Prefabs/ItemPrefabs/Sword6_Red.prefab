@@ -147,7 +147,6 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -193,14 +192,17 @@ MonoBehaviour:
   type: 2
   inventorySprite: {fileID: 21300000, guid: eeea39bd3a0f1f94685fd462204ff543, type: 3}
   itemRarity: 1
-  itemName: Enchanted Longsword
-  itemDescription: A longsword embued with ancient Japan-Gea magic.
+  itemName: "\u0417\u0430\u0447\u0430\u0440\u043E\u0432\u0430\u043D\u043D\u044B\u0439 
+    \u043C\u0435\u0447"
+  itemDescription: "\u0414\u043B\u0438\u043D\u043D\u044B\u0439 \u043C\u0435\u0447,
+    \u043D\u0430\u043F\u043E\u043B\u043D\u0435\u043D\u043D\u044B\u0439 \u0434\u0440\u0435\u0432\u043D\u0435\u0439
+    \u043C\u0430\u0433\u0438\u0435\u0439 \u042F\u043F\u043E\u043D\u0438\u0438."
   hoverShader: {fileID: 4800000, guid: b828cb58bc5b5334bab61a956aef47e4, type: 3}
   defaultShader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   maxWeaponDamageBonus: 50
   baseDamage: 20
-  weaponDamageBonus: 0
-  attackSpeed: 1
+  weaponDamageBonus: 6
+  attackSpeed: 1.6845345
 --- !u!65 &4397386110029999504
 BoxCollider:
   m_ObjectHideFlags: 0

@@ -54,7 +54,6 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -100,9 +99,13 @@ MonoBehaviour:
   type: 2
   inventorySprite: {fileID: 21300000, guid: 5c304c6575e4436488eeba62ccd449f6, type: 3}
   itemRarity: 2
-  itemName: Irridiobeam (Epic)
-  itemDescription: A medium-sized, dual-edged blade, the irridiobean radiates an
-    ancient energy. It is embued with some sort of mythical power.
+  itemName: "\u0418\u0440\u0440\u0438\u0434\u0438\u043E\u043D (\u044D\u043F\u0438\u0447\u0435\u0441\u043A\u0438\u0439)"
+  itemDescription: "\u041E\u0431\u043E\u044E\u0434\u043E\u043E\u0441\u0442\u0440\u044B\u0439
+    \u043A\u043B\u0438\u043D\u043E\u043A \u0441\u0440\u0435\u0434\u043D\u0435\u0433\u043E
+    \u0440\u0430\u0437\u043C\u0435\u0440\u0430, \u0438\u0437\u043B\u0443\u0447\u0430\u0435\u0442
+    \u0434\u0440\u0435\u0432\u043D\u044E\u044E \u044D\u043D\u0435\u0440\u0433\u0438\u044E.
+    \u041E\u043D \u043D\u0430\u043F\u043E\u043B\u043D\u0435\u043D \u043A\u0430\u043A\u043E\u0439-\u0442\u043E
+    \u043C\u0438\u0444\u0438\u0447\u0435\u0441\u043A\u043E\u0439 \u0441\u0438\u043B\u043E\u0439."
   hoverShader: {fileID: 4800000, guid: e4141780c1f7873418346b5417951cba, type: 3}
   defaultShader: {fileID: 4800000, guid: e4532d97636901541a63eb877e381758, type: 3}
   maxWeaponDamageBonus: 70

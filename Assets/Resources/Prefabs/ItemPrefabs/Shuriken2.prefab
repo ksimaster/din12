@@ -54,7 +54,6 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -100,8 +99,10 @@ MonoBehaviour:
   type: 0
   inventorySprite: {fileID: 21300000, guid: 3895f1fe080418f4195b2cfa3f95e128, type: 3}
   itemRarity: 0
-  itemName: Curved shuriken.
-  itemDescription: A more modern, curve-bladed design.
+  itemName: "\u0418\u0437\u043E\u0433\u043D\u0443\u0442\u044B\u0439 \u0441\u044E\u0440\u0438\u043A\u0435\u043D. "
+  itemDescription: "\u0411\u043E\u043B\u0435\u0435 \u0441\u043E\u0432\u0440\u0435\u043C\u0435\u043D\u043D\u044B\u0439
+    \u0434\u0438\u0437\u0430\u0439\u043D \u0441 \u0438\u0437\u043E\u0433\u043D\u0443\u0442\u044B\u043C\u0438
+    \u043B\u0435\u0437\u0432\u0438\u044F\u043C\u0438"
   hoverShader: {fileID: 4800000, guid: b828cb58bc5b5334bab61a956aef47e4, type: 3}
   defaultShader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   baseDamage: 10

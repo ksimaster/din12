@@ -147,7 +147,6 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -193,8 +192,9 @@ MonoBehaviour:
   type: 2
   inventorySprite: {fileID: 21300000, guid: 30e64bc431e85204db927f5d00b5ab86, type: 3}
   itemRarity: 0
-  itemName: Bronze Shortsword
-  itemDescription: A short bronze sword.
+  itemName: "\u0411\u0440\u043E\u043D\u0437\u043E\u0432\u044B\u0439  \u043C\u0435\u0447"
+  itemDescription: "\u041A\u043E\u0440\u043E\u0442\u043A\u0438\u0439 \u0431\u0440\u043E\u043D\u0437\u043E\u0432\u044B\u0439
+    \u043C\u0435\u0447."
   hoverShader: {fileID: 4800000, guid: b828cb58bc5b5334bab61a956aef47e4, type: 3}
   defaultShader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   maxWeaponDamageBonus: 40

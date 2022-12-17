@@ -12,9 +12,9 @@ public enum ItemType
 
 public enum ItemRarity
 {
-    Normal,
-    Rare,
-    Epic
+    Обычный,
+    Редкий,
+    Легендарный
 }
 
 public class ItemScript : MonoBehaviour

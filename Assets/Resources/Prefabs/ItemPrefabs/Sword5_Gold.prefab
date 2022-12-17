@@ -147,7 +147,6 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -193,14 +192,18 @@ MonoBehaviour:
   type: 2
   inventorySprite: {fileID: 21300000, guid: 96eec992b1f312e4ab1044b60388314f, type: 3}
   itemRarity: 0
-  itemName: Curved Zweihander
-  itemDescription: A two-handed blade of German design, the curved blade allows for
-    use also as a scythe.
+  itemName: "\u0418\u0437\u043E\u0433\u043D\u0443\u0442\u044B\u0439 \u0426\u0432\u0430\u0439\u0445\u0430\u043D\u0434\u0435\u0440"
+  itemDescription: "\u0414\u0432\u0443\u0440\u0443\u0447\u043D\u044B\u0439 \u043A\u043B\u0438\u043D\u043E\u043A
+    \u043D\u0435\u043C\u0435\u0446\u043A\u043E\u0439 \u043A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0446\u0438\u0438,
+    \u0438\u0437\u043E\u0433\u043D\u0443\u0442\u044B\u0439 \u043A\u043B\u0438\u043D\u043E\u043A
+    \u043F\u043E\u0437\u0432\u043E\u043B\u044F\u0435\u0442 \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u044C
+    \u0435\u0433\u043E \u0438 \u043A\u0430\u043A \u043A\u043E\u0441\u0443."
   hoverShader: {fileID: 4800000, guid: b828cb58bc5b5334bab61a956aef47e4, type: 3}
   defaultShader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   maxWeaponDamageBonus: 40
   baseDamage: 17
   weaponDamageBonus: 0
+  attackSpeed: 1
 --- !u!65 &1704368628105671555
 BoxCollider:
   m_ObjectHideFlags: 0

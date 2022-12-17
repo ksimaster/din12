@@ -49,8 +49,8 @@ MonoBehaviour:
   type: 3
   inventorySprite: {fileID: 21300000, guid: d02b99aa3c2d1a84a913890bee90cd8a, type: 3}
   itemRarity: 0
-  itemName: Hotdog
-  itemDescription: 
+  itemName: "\u0425\u043E\u0442 \u0434\u043E\u0433"
+  itemDescription: "\u041E\u0447\u0435\u043D\u044C \u0432\u043A\u0443\u0441\u043D\u043E!"
   hoverShader: {fileID: 0}
   defaultShader: {fileID: 0}
   defaultHealValue: 40
