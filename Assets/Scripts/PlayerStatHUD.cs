@@ -113,7 +113,7 @@ public class PlayerStatHUD : MonoBehaviour
         health = Mathf.Clamp(health, 0, maxHealth);
 
         // Update health bar
-        hpText.text = "HP: " + health + "/" + maxHealth;
+        hpText.text = "∆»«Õ‹: " + health + "/" + maxHealth;
         float hpPercent = (float)health / maxHealth;
         heathSlider.value = hpPercent;
 
